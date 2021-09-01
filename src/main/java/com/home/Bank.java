@@ -1,7 +1,7 @@
 package com.home;
 
 public class Bank {
-    public Money reduced(Expression source, String to) {
-        return Money.dollar(10);
+    Money reduced(Expression source, String to) {
+        return source.reduce(to);
     }
 }
